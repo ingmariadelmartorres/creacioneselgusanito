@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creaciones El Gusanito - Manualidades y Decoración</title>
+    <link rel="icon" type="image/x-icon" href="../assets/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <div class="logo-img">
+                        <img src="../assets/logo.jpg" alt="Logo El Gusanito" class="logo-image">
+                    </div>
+                    <div class="logo-text">El<span>Gusanito</span></div>
+                </a>
+                
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#galeria">Galería</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <h1>Creaciones <span>El Gusanito</span></h1>
+            <p>Diseñamos cintas y cintillos de alta calidad pensados en alegrar los corazones de las niñas y jovencitas con estilo y delicadeza.</p>
+            <div class="cta-buttons">
+                <a href="#galeria" class="btn btn-primary">Ver Galería</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre El Gusanito</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Creaciones y Accesorios hecho con amor <h3>
+                    <p>En Creaciones El Gusanito nos dedicamos a elaborar accesorios para el cabello hechos a mano con amor y dedicación. Nuestro objetivo es llevar alegría y color a cada niña o jovencita, donde nuestros detalles cobran vidas, descubre cinas y cintillos únicos que añaden un toque de magia y color al cabello de cada niña o jovencita, convirtiendo peinados sencillos en un toque de dulzura y estilo para ellas.</p>
+                    <a href="https://www.instagram.com/creacioneselgusanito/" target="_blank" class="btn btn-accent">Síguenos en Instagram</a>
+                </div>
+                <div class="about-image">
+                    <img src="../assets/logo.jpg" alt="Manualidades creativas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería de Productos -->
+    <section id="galeria">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galería de Productos</h2>
+                <p class="section-subtitle">Explora nuestra colección completa de cintas y cintillos con lazos</p>
+            </div>
+
+           <!-- Filtros de Categorías -->
+        <div class="gallery-filters">
+           <button class="filter-btn active" data-filter="todos">Todos</button>
+           <button class="filter-btn" data-filter="delgadas">Cintas Delgadas</button>
+           <button class="filter-btn" data-filter="cintillos">Cintillos</button>
+           <button class="filter-btn" data-filter="gruesas">Cintas Gruesas</button>
+           <button class="filter-btn" data-filter="rosas">Rosas</button>
+           
+    
+</div>
+
+            <!-- Contador de productos -->
+            <div class="products-counter">
+                <span id="counter">0</span> productos mostrados
+            </div>
+
+            <!-- Grid de Galería -->
+            <div class="gallery-grid" id="galleryGrid">
+                
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1.jpg" alt="MODELO1" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-2.jpg" alt="MODELO1-2" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-3.jpg" alt="MODELO1-3" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-4.jpg" alt="MODELO1-4" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-5.jpg" alt="MODELO1-5" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-6.jpg" alt="MODELO1-6" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-7.jpg" alt="MODELO1-7" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-8.jpg" alt="MODELO1-8" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-9.jpg" alt="MODELO1-9" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-10.jpg" alt="MODELO1-10 loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-11.jpg" alt="MODELO1-11" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-12.jpg" alt="MODELO1-12" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-13.jpg" alt="MODELO1-13" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-14.jpg" alt="MODELO1-14" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-19.jpg" alt="MODELO1-19" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-20.jpg" alt="MODELO1-20" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-25.jpg" alt="MODELO1-25" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-26.jpg" alt="MODELO1-26" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="delgadas">
+                    <div class="gallery-item-inner">
+                        <div class="gallery-img">
+                            <img src="assets/galeria/MODELO1-29.jpg" alt="MODELO1-29" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Cinta Delgada</h3>
+                            <p>Hermosas Cintas Delgadas</p>
+                            <a href="https://wa.me/584126624061?text=Hola,%20me%20interesa%20este%20producto%20de%20la%20galería" 
+                               target="_blank" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Botón de carga más -->
+            <div class="load-more-container">
+                <button id="loadMore" class="btn btn-primary">
+                    <i class="fas fa-plus"></i> Cargar Más Productos
+                </button>
+                <div id="loadingIndicator" class="loading-indicator" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Cargando más productos...</p>
+                </div>
+            </div>
+
+            <!-- Mensaje si no hay productos -->
+            <div id="noProducts" class="no-products" style="display: none;">
+                <i class="fas fa-box-open"></i>
+                <h3>No hay productos en esta categoría</h3>
+                <p>Prueba con otra categoría o vuelve más tarde</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contáctanos</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" class="form-control" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" class="form-control" placeholder="tu@correo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Tu número de teléfono">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" class="form-control" placeholder="Cuéntanos sobre tu proyecto o consulta..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Ubicación</h4>
+                            <p>Cordero Táchira Venezuela</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Teléfono WhatsApp</h4>
+                            <p>+58 0412-66624061</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Correo Electrónico</h4>
+                            <p>info@creacioneselgusanito.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Horario de Atención</h4>
+                            <p>Lunes a Sábado: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/584126624061?text=Hola,%20quiero%20más%20información%20sobre%20sus%20productos" target="_blank" class="whatsapp-fab">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">El<span style="color: var(--secondary);">Gusanito</span></a>
+                    <p>Creaciones únicas hechas a mano con amor y dedicación. Transformamos bellezas en las niñas y adolescentes.</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/creacioneselgusanito/" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/584126624061" target="_blank" class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Categorías</h4>
+                    <ul>
+                        <li><a href="#galeria" data-filter="delgadas">Cintas Delgadas</a></li>
+                        <li><a href="#galeria" data-filter="cintillos">Cintillos</a></li>
+                        <li><a href="#galeria" data-filter="cintas">Cintas Gruesas/a></li>
+                        <li><a href="#galeria" data-filter="rosas">Rosas</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Contacto Directo</h4>
+                    <ul>
+                        <li style="color: #bbb; margin-bottom: 10px;">
+                            <i class="fab fa-whatsapp"></i> +58 0412-66624061
+                        </li>
+                        <li style="color: #bbb; margin-bottom: 10px;">
+                            <i class="fas fa-envelope"></i> info@creacioneselgusanito.com
+                        </li>
+                        <li style="color: #bbb;">
+                            <i class="fas fa-map-marker-alt"></i> Cordero Táchira Venezuela 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Creaciones El Gusanito. Todos los derechos reservados. | 
+                Desarrollado por <a href="https://ingmariadelmar.rf.gd" target="_blank">Ing. María del Mar Torres</a> | 
+                <a href="https://wa.me/584245469701" target="_blank">Contáctame</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
